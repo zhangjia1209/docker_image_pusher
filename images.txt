@@ -1,4 +1,4 @@
 # 常用的docker名称
 nginx
 ailg/alist
-alist/ggbond
+ailg/ggbond
