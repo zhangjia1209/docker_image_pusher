@@ -3,132 +3,17 @@ nginx
 
 # 支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-mysql:5.7
-redis:6.0
-mariadb:10.5
-mongo:4.4
 postgres:13
-elasticsearch:7.10.2
-rabbitmq:3.8
-
 # 支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
---platform=linux/amd64 postgres:13
---platform=linux/arm64 grafana/grafana:8.3.3
-
 # Vue.js 开发环境
-node:14
-node:16
-node:lts
-
-# Python 环境
-python:3.8
-python:3.9
-python:3.10
-python:3.11
-python:3.12
-jupyter/base-notebook:latest
-jupyter/scipy-notebook:latest
-jupyter/datascience-notebook:latest
-pandas:latest
-tensorflow/tensorflow:2.8.0
-pytorch/pytorch:1.10.0
-
+node:latest
 # 数据库
 mysql:8.0
 postgres:14
-mariadb:10.6
 mongo:5.0
-redis:6.2
-couchdb:3.1
-cassandra:4.0
-neo4j:4.4
-influxdb:2.1
-
 # 影音
 jellyfin/jellyfin:latest
-plexinc/pms-docker:latest
-linuxserver/sonarr:latest
-linuxserver/radarr:latest
-linuxserver/ombi:latest
-linuxserver/jackett:latest
-
 # 开发工具
-alpine:latest
 debian:latest
-ubuntu:20.04
 ubuntu:22.04
-busybox:latest
-
-# 前100常用库
-nginx:latest
-httpd:latest
-mysql:latest
-postgres:latest
-mariadb:latest
-mongo:latest
-redis:latest
-memcached:latest
-python:latest
-node:latest
-openjdk:latest
-golang:latest
-jenkins/jenkins:latest
-gitlab/gitlab-ce:latest
-prom/prometheus:latest
-grafana/grafana:latest
-elasticsearch:latest
-logstash:latest
-kibana:latest
-traefik:latest
-spark:latest
-vault:latest
-sonarqube:latest
-php:latest
-ruby:latest
-nextcloud:latest
-wordpress:latest
-ghost:latest
-joomla:latest
-drupal:latest
-mediawiki:latest
-rocketchat/rocket.chat:latest
-mattermost/mattermost-team-edition:latest
-alertmanager:latest
-fluent/fluentd:latest
-timberio/vector:latest
-cassandra:latest
-etcd:latest
-hazelcast/hazelcast:latest
-rabbitmq:latest
-kafka:latest
-consul:latest
-caddy:latest
-haproxy:latest
-envoyproxy/envoy:latest
-istio/proxyv2:latest
-linkerd/linkerd:latest
-kong:latest
-tykio/tyk-gateway:latest
-spinnaker/spinnaker:latest
-circleci/circleci:latest
-travisci/ci-sauce:latest
-jetbrains/teamcity-server:latest
-atlassian/bamboo-server:latest
-drone/drone:latest
-gitlab/gitlab-runner:latest
-buildkite/agent:latest
-phpmyadmin:latest
-adminer:latest
-metabase/metabase:latest
-apache/superset:latest
-getredash/redash:latest
-jupyter/base-notebook:latest
-apache/zeppelin:latest
-rstudio/rstudio:latest
-rocker/rstudio:latest
-continuumio/anaconda3:latest
-apache/mxnet:latest
-torch/torch:latest
-scipy/scipy-notebook:latest
