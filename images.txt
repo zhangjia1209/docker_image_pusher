@@ -1,3 +1,4 @@
 # 常用的docker名称
 nginx
---platform=linux/arm64 xiaoyaliu/alist
+ailg/alist
+alist/ggbond
